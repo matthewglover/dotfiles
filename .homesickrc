@@ -17,3 +17,6 @@ puts "Installing FZF"
 
 puts "Installing Tree"
 `brew install tree`
+
+puts "Installing ZSH Syntax highlighting"
+`brew install zsh-syntax-highlighting`
