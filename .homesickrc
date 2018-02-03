@@ -11,6 +11,9 @@ puts "Installing Vim Plug for NeoVim"
 `curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
 
-puts "Install FZF"
+puts "Installing FZF"
 `brew install fzf`
 `$(brew --prefix)/opt/fzf/install`
+
+puts "Installing Tree"
+`brew install tree`
