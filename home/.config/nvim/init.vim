@@ -1,4 +1,4 @@
-call plug#begin()
+call plug#begin('~/.local/share/nvim/plugged')
   " Run Unix commands easily from Vim
   Plug 'tpope/vim-eunuch'
 
